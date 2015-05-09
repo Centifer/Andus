@@ -1,0 +1,35 @@
+@font-face {
+     font-family: Aldrich;
+     src: url(http://fonts.gstatic.com/s/aldrich/v6/VWXaIPGrUapL_Y2vGs0lKALUuEpTyoUstqEm5AMlJo4.woff);
+ }
+
+body {
+     font-size:24;
+     font-family: Aldrich;
+     /* GRADIENT BACKGROUNDS */
+     /* IE10 Consumer Preview */ 
+     background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #A1A1A1 100%);
+
+     /* Mozilla Firefox */ 
+     background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #A1A1A1 100%);
+
+     /* Opera */ 
+     background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #A1A1A1 100%);
+
+     /* Webkit (Safari/Chrome 10) */ 
+     background-image: -webkit-gradient(radial, center center, 0, center center, 505, color-stop(0, #FFFFFF), color-stop(1, #A1A1A1));
+
+     /* Webkit (Chrome 11+) */ 
+     background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #A1A1A1 100%);
+
+     /* W3C Markup, IE10 Release Preview */ 
+     background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #A1A1A1 100%);  
+     
+     }
+
+#boxtest {
+  width:200px;
+  height:200px;
+  background-color:#000000;
+  color:#ffffff;
+}
